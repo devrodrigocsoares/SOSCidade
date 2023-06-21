@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logotipo from "../../assets/Logotipo.svg";
-import "./styles.css";
+import "./stylesLogin.css";
 import { Link } from "react-router-dom";
 
 const Login: React.FC = () => {
@@ -28,7 +28,7 @@ const Login: React.FC = () => {
 
   return (
     <div className="login-box">
-      <img src={logotipo} alt="Logo" className="logo" />
+      <img src={logotipo} alt="Logo" className="logotipo" />
       <form className="login-form" onSubmit={handleSubmit}>
         <input
           id="email"
@@ -60,7 +60,7 @@ const Login: React.FC = () => {
 
         <div className="cadastrar">
           <span>Não tem uma conta?</span>
-          <Link id="link-add" to="/cadastrarUser">
+          <Link id="link-add" to="/register">
             Cadastrar
           </Link>
         </div>

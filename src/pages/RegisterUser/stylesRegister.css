@@ -1,0 +1,107 @@
+.login-box {
+  position: absolute;
+  width: 561px;
+  height: 695px;
+  left: 440px;
+  top: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  position: absolute;
+  width: 150px;
+  height: 160px;
+  left: 30px;
+  top: -80px;
+  margin-top: 2rem;
+}
+
+.login-form {
+  margin-top: 5rem;
+  width: 407px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  padding-right: 40px;
+}
+
+.password-input i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.forgot-password-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login-button {
+  padding: 10px;
+  gap: 10px;
+  width: 407px;
+  height: 48px;
+  left: 70px;
+  top: 499px;
+  background: #2f88ff;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background: #2f88ff;
+  opacity: 0.8;
+}
+.cadastrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.cadastrar a {
+  text-decoration: none;
+  margin-left: 0.3rem;
+  color: #2f88ff;
+}
